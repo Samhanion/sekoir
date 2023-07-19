@@ -1466,7 +1466,7 @@ a {
   left: 537px;
   /* position: absolute; */
   top: 91px;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   margin-top: 34px;
@@ -1927,7 +1927,7 @@ a {
   }
   /* footer */
   .home-sekoir .group-20 {
-    width: 40%;
+    width: 50%;
   }
 }
 @media (max-width: 800px) {
@@ -2015,7 +2015,7 @@ a {
   }
   /* footer */
   .home-sekoir .group-20 {
-    width: 60%;
+    width: 65%;
   }
 }
 @media (max-width: 575px) {
@@ -2158,5 +2158,9 @@ a {
   }
   .home-sekoir .text-wrapper-48 {
     font-size: 3vw;
+  }
+  /* footer */
+  .home-sekoir .group-20 {
+    width: 75%;
   }
 }

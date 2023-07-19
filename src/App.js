@@ -197,6 +197,9 @@ function App() {
               <a href='https://sekoir-20.netlify.app/tos'>
                 <div className='text-wrapper-9'>شروط الإاستخدام</div>
               </a>
+              <a href='https://sekoir-20.netlify.app/levels'>
+                <div className='text-wrapper-9'>المستويات</div>
+              </a>
             </div>
             <div className='login'>
               <div className='div-wrapper'>
@@ -682,6 +685,9 @@ function App() {
               </Link>
               <a href='https://sekoir-20.netlify.app/tos'>
                 <div className='text-wrapper-48'>شروط الإاستخدام</div>
+              </a>
+              <a href='https://sekoir-20.netlify.app/levels'>
+                <div className='text-wrapper-48'>المستويات</div>
               </a>
             </div>
             <div className='rectangle-4' />
