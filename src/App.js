@@ -36,7 +36,8 @@ function App() {
         document.getElementsByClassName('text-wrapper-37')[i].innerHTML = answers[i];
       }
       document.getElementsByClassName('overlap-10')[0].style.display = 'flex';
-      document.getElementById('answer5').style.display = 'block';
+      if (document.getElementsByClassName('vector-2')[4].src.split('-')[2].includes('3')) document.getElementById('answer5').style.display = 'none';
+      else document.getElementById('answer5').style.display = 'block';
     }
     if (tab === 'transactions') {
       let questions = [
@@ -70,7 +71,8 @@ function App() {
         document.getElementsByClassName('text-wrapper-37')[i].innerHTML = answers[i];
       }
       document.getElementsByClassName('overlap-10')[0].style.display = 'flex';
-      document.getElementById('answer5').style.display = 'block';
+      if (document.getElementsByClassName('vector-2')[4].src.split('-')[2].includes('3')) document.getElementById('answer5').style.display = 'none';
+      else document.getElementById('answer5').style.display = 'block';
     }
     if (tab === 'accounts') {
       let questions = [
@@ -105,7 +107,8 @@ function App() {
         document.getElementsByClassName('text-wrapper-37')[i].innerHTML = answers[i];
       }
       document.getElementsByClassName('overlap-10')[0].style.display = 'flex';
-      document.getElementById('answer5').style.display = 'block';
+      if (document.getElementsByClassName('vector-2')[4].src.split('-')[2].includes('3')) document.getElementById('answer5').style.display = 'none';
+      else document.getElementById('answer5').style.display = 'block';
     }
     if (tab === 'security') {
       let questions = [
@@ -133,7 +136,8 @@ function App() {
         document.getElementsByClassName('text-wrapper-37')[i].innerHTML = answers[i];
       }
       document.getElementsByClassName('overlap-10')[0].style.display = 'none';
-      document.getElementById('answer5').style.display = 'none';
+      if (document.getElementsByClassName('vector-2')[4].src.split('-')[2].includes('3')) document.getElementById('answer5').style.display = 'none';
+      else document.getElementById('answer5').style.display = 'block';
     }
   };
 
