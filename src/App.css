@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Bold';
+  src: url('./images/Fonts/Expo_Arabic_Bold.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('./images/Fonts/Expo_Arabic_Medium.ttf') format('truetype')
+}
+
+p{
+  font-family : 'Medium' !important;
+}
 .home-sekoir {
   background-color: #ffffff;
   display: flex;
@@ -63,8 +75,8 @@
 
 .home-sekoir .text-wrapper-2 {
   color: #17181e;
-  font-family: 'IBM Plex Sans', Helvetica;
-  font-size: 22px;
+  font-family: "Bold";
+  font-size: 19px;
   font-weight: 700;
   right: 2vw;
   /* left: 2.2vw; */
@@ -79,7 +91,7 @@
   background-color: #121417;
   border-radius: 25px;
   height: 50px;
-  left: -32px;
+  right: -16px;
   position: absolute;
   top: 182px;
   width: 50px;
@@ -87,7 +99,8 @@
 
 .home-sekoir .group {
   height: 15px;
-  left: -19px;
+  /* left: -19px; */
+  right: -4px;
   position: absolute;
   top: 200px;
   width: 24px;
@@ -129,7 +142,7 @@
 
 .home-sekoir .text-wrapper-3 {
   color: #ffffff;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0;
@@ -179,8 +192,8 @@ a {
 
 .home-sekoir .text-wrapper-5 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: 'Medium';
+  font-size: 12px;
   font-weight: 500;
   /* left: 609px; */
   margin-right: 26px;
@@ -194,8 +207,8 @@ a {
 
 .home-sekoir .text-wrapper-6 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: 'Medium';
+  font-size: 12px;
   font-weight: 500;
   /* left: 537px; */
   margin-right: 26px;
@@ -209,8 +222,8 @@ a {
 
 .home-sekoir .text-wrapper-7 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   /* left: 682px; */
   margin-right: 26px;
@@ -224,8 +237,8 @@ a {
 
 .home-sekoir .text-wrapper-8 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   /* left: 775px; */
   margin-right: 26px;
@@ -239,8 +252,8 @@ a {
 
 .home-sekoir .text-wrapper-9 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   /* left: 841px; */
   margin-right: 26px;
@@ -266,7 +279,7 @@ a {
   /* left: 7.77%; */
   margin-right: 4vw;
   position: absolute;
-  top: 248px;
+  top: 130px;
   width: 528px;
   z-index: 100;
 }
@@ -307,7 +320,7 @@ a {
 
 .home-sekoir .text-wrapper-10 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0;
@@ -319,8 +332,8 @@ a {
 
 .home-sekoir .h-1 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 60px;
+  font-family: "Bold";
+  font-size: 56px;
   font-weight: 800;
   left: 0;
   letter-spacing: -2px;
@@ -374,7 +387,7 @@ a {
 
 .home-sekoir .text-wrapper-12 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 40px;
   font-weight: 800;
   height: 48px;
@@ -500,7 +513,7 @@ a {
 
 .home-sekoir .text-wrapper-17 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 22px;
   font-weight: 600;
   /* height: 28px; */
@@ -515,7 +528,7 @@ a {
 
 .home-sekoir .text-wrapper-18 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 22px;
   font-weight: 600;
   /* height: 28px; */
@@ -726,8 +739,8 @@ a {
 
 .home-sekoir .text-wrapper-21 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
-  font-size: 40px;
+  font-family: "Bold";
+  font-size: 30px;
   font-weight: 800;
   height: 56px;
   left: 0;
@@ -758,7 +771,7 @@ a {
 
 .home-sekoir .text-wrapper-22 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 20px;
   font-weight: 600;
   /* height: 24px; */
@@ -795,7 +808,7 @@ a {
 
 .home-sekoir .text-wrapper-24 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 20px;
   font-weight: 600;
   /* height: 24px; */
@@ -818,7 +831,7 @@ a {
 
 .home-sekoir .text-wrapper-25 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 20px;
   font-weight: 600;
   /* height: 24px; */
@@ -929,8 +942,8 @@ a {
 
 .home-sekoir .text-wrapper-29 {
   color: #17181e;
-  font-family: 'IBM Plex Sans', Helvetica;
-  font-size: 22px;
+  font-family: "Bold";
+  font-size: 19px;
   font-weight: 700;
   /* left: 2.2vw; */
   right: 2vw;
@@ -959,7 +972,7 @@ a {
 
 .home-sekoir .text-wrapper-30 {
   color: var(--primary-colorblack);
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 40px;
   font-weight: 800;
   height: 51px;
@@ -993,7 +1006,7 @@ a {
 
 .home-sekoir .text-wrapper-32 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 22px;
   font-weight: 400;
   height: 28px;
@@ -1011,7 +1024,7 @@ a {
 
 .home-sekoir .text-wrapper-33 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 22px;
   font-weight: 400;
   height: 28px;
@@ -1028,7 +1041,7 @@ a {
 
 .home-sekoir .text-wrapper-34 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 22px;
   font-weight: 400;
   height: 28px;
@@ -1045,7 +1058,7 @@ a {
 
 .home-sekoir .text-wrapper-35 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 22px;
   font-weight: 400;
   height: 28px;
@@ -1270,7 +1283,7 @@ a {
 
 .home-sekoir .text-wrapper-39 {
   color: var(--font-colorheading);
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 22px;
   font-weight: 700;
   left: 0;
@@ -1292,7 +1305,7 @@ a {
 
 .home-sekoir .need-help {
   color: var(--font-colorheading);
-  font-family: 'Inter', Helvetica;
+  font-family: 'Bold';
   font-size: 40px;
   font-weight: 800;
   left: 489px;
@@ -1326,7 +1339,7 @@ a {
 
 .home-sekoir .text-wrapper-41 {
   color: var(--font-colorheading);
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 22px;
   font-weight: 600;
   left: 0;
@@ -1385,7 +1398,7 @@ a {
 
 .home-sekoir .text-wrapper-42 {
   color: #ffffff;
-  font-family: 'Inter', Helvetica;
+  font-family: "Bold";
   font-size: 60px;
   font-weight: 800;
   height: 73px;
@@ -1429,7 +1442,7 @@ a {
 
 .home-sekoir .text-wrapper-43 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0;
@@ -1474,8 +1487,8 @@ a {
 
 .home-sekoir .text-wrapper-44 {
   color: #17181e;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   left: 72px;
   letter-spacing: 0;
@@ -1488,8 +1501,8 @@ a {
 
 .home-sekoir .text-wrapper-45 {
   color: #17181e;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   left: 0;
   letter-spacing: 0;
@@ -1502,8 +1515,8 @@ a {
 
 .home-sekoir .text-wrapper-46 {
   color: #17181e;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   left: 145px;
   letter-spacing: 0;
@@ -1516,8 +1529,8 @@ a {
 
 .home-sekoir .text-wrapper-47 {
   color: #17181e;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   left: 238px;
   letter-spacing: 0;
@@ -1530,8 +1543,8 @@ a {
 
 .home-sekoir .text-wrapper-48 {
   color: #17181e;
-  font-family: 'Inter', Helvetica;
-  font-size: 16px;
+  font-family: "Medium";
+  font-size: 12px;
   font-weight: 500;
   left: 304px;
   letter-spacing: 0;
@@ -1557,11 +1570,13 @@ a {
   top: 179px;
   width: 100vw;
   margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .home-sekoir .text-wrapper-49 {
   color: #121417;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 18px;
   font-weight: 500;
   left: 0;
@@ -1572,7 +1587,7 @@ a {
   top: 0;
   white-space: nowrap;
   float: left;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .home-sekoir .div-copyright-social {
@@ -1738,6 +1753,47 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.conditions{
+  display: flex;
+  width: 33%;
+  justify-content: space-evenly;
+  margin-top: 9px;
+}
+.conditions1{
+  display: none;
+  width: 33%;
+  justify-content: space-evenly;
+  margin-top: 19px;
+}
+.home-sekoir .group-22{
+  display: block;
+}
+.condition{
+  color: #17181e;
+  font-family: "Bold";
+  font-size: 12px;
+  font-weight: 500;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  top: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.condition1{
+  color: #17181e;
+  font-family: "Bold";
+  font-size: 12px;
+  font-weight: 500;
+  left: 304px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* position: absolute; */
+  top: 0;
+  white-space: nowrap;
+  cursor: pointer;
 }
 @media (max-width: 1200px) {
   /* page 3 */
@@ -1992,10 +2048,10 @@ a {
     align-self: center;
   }
   .home-sekoir .text-wrapper-36 {
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .home-sekoir .text-wrapper-37 {
-    font-size: 2.6vw;
+    font-size: 2vw;
   }
   .home-sekoir .vector-wrapper {
     font-size: 3vw;
@@ -2005,6 +2061,9 @@ a {
   .home-sekoir .text-wrapper-38 {
     line-height: 20px;
     margin-top: 0px;
+  }
+  .home-sekoir .need-help {
+    font-size: 6vw;
   }
   /* page 8 */
   .home-sekoir .text-wrapper-43 {
@@ -2016,6 +2075,24 @@ a {
   /* footer */
   .home-sekoir .group-20 {
     width: 65%;
+  }
+  .home-sekoir .text-wrapper-49{
+    font-size: 2vw;
+  }
+  .home-sekoir .group-22{
+    margin-top: 8px;
+  }
+  .conditions{
+    display: none;
+  }
+  .conditions1{
+    display: flex;
+  }
+  .condition{
+    font-size: 1.5vw;
+  }
+  .condition1{
+    font-size: 1.5vw;
   }
 }
 @media (max-width: 575px) {
@@ -2029,11 +2106,12 @@ a {
     width: 90vw;
     margin-top: 0px;
     direction: rtl;
+    font-size: 3vw;
   }
   .home-sekoir .h-1 {
-    font-size: 9vw;
+    font-size: 7vw;
     margin-top: 9vw;
-    width: 95vw;
+    width: 90vw;
     margin-bottom: 10px;
   }
   .login {
@@ -2076,35 +2154,38 @@ a {
   }
   /* page 4 */
   .home-sekoir .text-wrapper-29 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .home-sekoir .text-wrapper-2 {
-    font-size: 4vw;
+    font-size: 3vw;
+  }
+  .home-sekoir .start-trading-in{
+    font-size: 6vw;
   }
   .home-sekoir .ellipse {
     background-color: #121417;
     border-radius: 25px;
     height: 25px;
-    left: -16px;
+    right: -8px;
     position: absolute;
     top: 182px;
     width: 25px;
   }
   .home-sekoir .group {
     height: 7.5px;
-    left: -9px;
+    right: -2px;
     position: absolute;
     top: 191px;
     width: 12px;
   }
   .home-sekoir .text-wrapper-22 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .home-sekoir .text-wrapper-24 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .home-sekoir .text-wrapper-25 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .home-sekoir .group-9 {
     margin-right: 20px;
@@ -2121,9 +2202,12 @@ a {
   /* page 5 */
   .home-sekoir .text-wrapper {
     margin-top: 0px;
+    font-size: 2.5vw;
   }
   .home-sekoir .text-wrapper-28 {
     margin-top: 0px;
+    font-size: 2.5vw;
+
   }
   .home-sekoir .text-wrapper-27 {
     font-size: 5vw;
@@ -2159,8 +2243,16 @@ a {
   .home-sekoir .text-wrapper-48 {
     font-size: 3vw;
   }
+
   /* footer */
   .home-sekoir .group-20 {
     width: 75%;
+  }
+
+  .conditions1{
+    width: 40%;
+  }
+  .condition1{
+    font-size: 2vw;
   }
 }

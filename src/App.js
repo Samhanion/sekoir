@@ -7,6 +7,11 @@ import tiktok from './images/tiktok.svg';
 import twitter from './images/twitter.svg';
 import youtube from './images/youtube.svg';
 import payment_pic from './images/payments-pic.png';
+import fees from './images/fees.svg'
+import payouts from './images/payouts.svg'
+import crypto from './images/crypto.svg'
+import gateways from './images/gateways.svg'
+
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 function App() {
@@ -180,26 +185,26 @@ function App() {
             </svg>
             <div className='header'>
               <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500}>
-                <div className='text-wrapper-5'>عن</div>
+                <div className='text-wrapper-5'>من نحن</div>
               </Link>
               <Link activeClass='active' to='home' spy={true} smooth={true} offset={-70} duration={500}>
-                <div className='text-wrapper-6'>بيت</div>
+                <div className='text-wrapper-6'>الرئسية</div>
               </Link>
               <Link activeClass='active' to='features' spy={true} smooth={true} offset={130} duration={500}>
-                <div className='text-wrapper-7'>سمات</div>
+                <div className='text-wrapper-7'>المميزات</div>
               </Link>
               <Link activeClass='active' to='faq' spy={true} smooth={true} offset={-70} duration={500}>
                 <div className='text-wrapper-8'>أسئلة و أجوبة</div>
               </Link>
               <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
-                <div className='text-wrapper-9'>اتصال</div>
+                <div className='text-wrapper-9'>اتصل بنا</div>
               </Link>
-              <a href='https://sekoir-20.netlify.app/tos'>
+              {/* <a href='https://sekoir-20.netlify.app/tos'>
                 <div className='text-wrapper-9'>شروط الإاستخدام</div>
               </a>
               <a href='https://sekoir-20.netlify.app/levels'>
                 <div className='text-wrapper-9'>المستويات</div>
-              </a>
+              </a> */}
             </div>
             <div className='login'>
               <div className='div-wrapper'>
@@ -222,8 +227,8 @@ function App() {
           </div>
           <div className='group-2'>
             <div className='title'>
-              <h1 className='h-1'>أسهل طريقة لتبادل العملات المشفرة</h1>
-              <p className='p'>مجموعة واسعة من العملات المشفرة المدعومة ، تصميم نظيف وأنيق ، سهل الاستخدام وآمن</p>
+              <h1 className='h-1'>تبادل عملاتك بكل سهولة و أمان في منصة سكوار</h1>
+              <p className='p'>سكوار هو منصة تبادل عملات إلكترونية في الجزائر يوفر طريقة آمنة وسريعة للمستخدمين لتبادل العملات الإلكترونية. نحن نضمن توفر جميع العملات والبنوك الإلكترونية المعتمدة وذلك بفضل نخبة من البائعين المعتمدين لدينا. بضغطة زر واحدة يمكن للمستخدمين الوصول إلى جميع العملات والبنوك الإلكترونية المتاحة للتبادل. نحن نولي أهمية كبيرة لأمن المعاملات ونسعى لتقديم تجربة تبادل سهلة وموثوقة للمستخدمين .</p>
               <div className='buttons'>
                 <div className='frame-2'>
                   <a href='https://sekoir.net/auth/login'>
@@ -254,8 +259,7 @@ function App() {
           <div id='about' className='page-2'>
             <div className='text-wrapper-12'>أعلى العملات المشفرة</div>
             <p className='text-wrapper-11'>
-              sekoir يوفر لك <br />
-              أحدث التقنيات, و يقدم لك حلاََ بيسطاََ لبيع سلعك الرقمية بالعملات المشفرة
+              يوفر لك سكوار أحدث التقنيات ، ويقدم لك حلاً بسيطًا لبيع سلعك الرقمية بالعملات المشفرة
             </p>
             <img
               className='group-3'
@@ -264,7 +268,7 @@ function App() {
             />
             <div className='frame-4'>
               <a href='https://sekoir.net/auth/login'>
-                <div className='text-wrapper-10'>شراء</div>
+                <div className='text-wrapper-10'>إشتري الأن</div>
               </a>
             </div>
           </div>
@@ -273,7 +277,7 @@ function App() {
             <div className='right-half'>
               <p className='create-your-crypto'>قم بإنشاء محفظة التشفير الخاصة بك اليوم</p>
               <p className='text-wrapper-13'>
-                <span>يدعم Sekoir </span>
+                <span>يدعم سكوار</span>
                 <span>تقريبًا جميع العملات المحلية (FIAT) </span>
                 <span>
                   في العالم من خلال قائمة الحساب المصرفي لكل من عمليات السحب والإيداع المحلية ، والتي يمكن تداولها باستخدام العملات المشفرة المدعومة
@@ -287,7 +291,7 @@ function App() {
                   src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/line-82.svg'
                 />
                 <p className='text-wrapper-14'>
-                  <span>يدعم Sekoir </span>
+                  <span>يدعم سكوار</span>
                   <span>تقريبًا جميع العملات المحلية (FIAT) </span>
                   <span>في العالم من خلال قائمة الحساب المصرفي لكل من عمليات السحب والإيداع المحلية.</span>
                 </p>
@@ -357,7 +361,7 @@ function App() {
                     <img
                       className='SVG'
                       alt='Svg'
-                      src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/svg-3.svg'
+                      src={crypto}
                     />
                     <div className='text-wrapper-22'>تشفير</div>
                     <p className='text-wrapper-23'>استخدم البنية التحتية للتشفير المضمنة لدينا. دعم BTC و ETH و LTC و USDT و USDC</p>
@@ -366,7 +370,7 @@ function App() {
                     <img
                       className='SVG'
                       alt='Svg'
-                      src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/svg-2.svg'
+                      src={gateways}
                     />
                     <div className='text-wrapper-24'>بوابات</div>
                     <p className='text-wrapper-23'>بيع عالميًا باستخدام PayPal و Stripe و CashApp وأكثر من 12 بوابة شائعة أخرى.</p>
@@ -377,13 +381,13 @@ function App() {
                     <img
                       className='SVG'
                       alt='Svg'
-                      src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/svg-1.svg'
+                      src= {payouts}
                     />
                     <div className='text-wrapper-25'>المدفوعات</div>
                     <p className='text-wrapper-26'>سنقوم بالحسابات والعمل الجاد من أجلك. كل ذلك بتقرير بسيط وسهل القراءة.</p>
                   </div>
                   <div className='group-10'>
-                    <img className='SVG' alt='Svg' src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/svg.svg' />
+                    <img className='SVG' alt='Svg' src={fees} />
                     <div className='text-wrapper-22'>مصاريف</div>
                     <p className='text-wrapper-23'>على عكس المنصات الشهيرة الأخرى ، فإن Sekoir تحصل على أقل رسوم بالمقارنة - بفارق ضئيل.</p>
                   </div>
@@ -394,7 +398,7 @@ function App() {
 
           {/* page 5 */}
           <div className='page-5'>
-            <p className='start-trading-in'>ابدأ التداول في 3 خطوات سهلة</p>
+            <p className='start-trading-in'>ابدأ صفقاتك بخطوات بسيطة</p>
             <div className='overlaps'>
               <div className='overlap-5'>
                 <div className='rectangle-3'>
@@ -409,7 +413,7 @@ function App() {
                     src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/6f0219118244899-3--1--1@2x.png'
                   />
                   <p className='text-wrapper-28'>سنوجهك خلال هذه العملية.</p>
-                  <div className='text-wrapper-29'>يسجل</div>
+                  <div className='text-wrapper-29'>أنشئ حسابك</div>
                 </div>
               </div>
               <div className='overlap'>
@@ -425,7 +429,7 @@ function App() {
                     src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/6f0219118244899-2-removebg-preview-1@2x.png'
                   />
                   <p className='text-wrapper'>شراء العملات المشفرة من خلال شركائنا أو تحويل الأموال.</p>
-                  <div className='text-wrapper-2'>إيداع</div>
+                  <div className='text-wrapper-2'>أودع معنا</div>
                 </div>
                 <div className='ellipse' />
                 <img
@@ -446,8 +450,8 @@ function App() {
                     alt='Element'
                     src='https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/6f0219118244899-1--1--1@2x.png'
                   />
-                  <p className='text-wrapper'>تعرف على مدى سهولة التداول والدفع والاستثمار مع Sekoir</p>
-                  <div className='text-wrapper-2'>تجارة</div>
+                  <p className='text-wrapper'>تعرف على مدى سهولة التداول والدفع والاستثمار مع سكوار</p>
+                  <div className='text-wrapper-2'>تداول العملات</div>
                 </div>
                 <div className='ellipse' />
                 <img
@@ -629,10 +633,9 @@ function App() {
           {/* page 8 */}
           <div className='overlap-wrapper'>
             <div className='overlap-11'>
-              <div className='text-wrapper-42'>جاهز للبيع؟</div>
+              <div className='text-wrapper-42'>جــاهز للانـضـمام ؟</div>
               <p className='being-your-own-boss'>
-                لم يكن كونك رئيسك في العمل مجزيًا أبدًا. ابدأ عملك عبر الإنترنت باستخدام Sellix - وهو حل قوي للتجارة الإلكترونية يتيح لك إنشاء ملف
-                متجر مخصص في بضع نقرات فقط.
+                موقعنا هو منصة تداول عبر الإنترنت متخصصة في بيع وشراء العملات الرقمية بطريقة آمنة وموثوقة. نحن نوفر بيئة تداول موثوقة وشفافة للمستخدمين الذين يرغبون في التعامل مع العملات الرقمية.
               </p>
               <div className='frame-5'>
                 <a href='https://sekoir.net/auth/login'>
@@ -669,47 +672,54 @@ function App() {
             </svg>
             <div className='group-20'>
               <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500}>
-                <div className='text-wrapper-44'>عن</div>
+                <div className='text-wrapper-44'>من نحن</div>
               </Link>
               <Link activeClass='active' to='home' spy={true} smooth={true} offset={-70} duration={500}>
-                <div className='text-wrapper-45'>بيت</div>
+                <div className='text-wrapper-45'>الرئسية</div>
               </Link>
               <Link activeClass='active' to='features' spy={true} smooth={true} offset={130} duration={500}>
-                <div className='text-wrapper-46'>سمات</div>
+                <div className='text-wrapper-46'>المميزات</div>
               </Link>
               <Link activeClass='active' to='faq' spy={true} smooth={true} offset={-70} duration={500}>
                 <div className='text-wrapper-47'>أسئلة و أجوبة</div>
               </Link>
               <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
-                <div className='text-wrapper-48'>اتصال</div>
+                <div className='text-wrapper-48'>اتصل بنا</div>
               </Link>
-              <a href='https://sekoir-20.netlify.app/tos'>
-                <div className='text-wrapper-48'>شروط الإاستخدام</div>
-              </a>
-              <a href='https://sekoir-20.netlify.app/levels'>
-                <div className='text-wrapper-48'>المستويات</div>
-              </a>
+             
             </div>
             <div className='rectangle-4' />
-            <div className='group-22'>
-              <div className='text-wrapper-49'>حقوق النشرSekoir 2023</div>
-              {/* <img
-              className="div-copyright-social"
-              alt="Div copyright social"
-              src="https://generation-sessions.s3.amazonaws.com/68256b5f2a1d9b9301bcccbe95faad19/img/div-copyright-social.svg"
-            /> */}
-              <div className='div-copyright-social'>
-                <div className='link-SVG-wrapper'>
-                  <a href='https://t.me/Sekoirdz'>
-                    <img className='link-SVG' alt='telegram icon' src={telegram} />
-                  </a>
-                  <img className='link-SVG' alt='discord icon' src={discord} />
-                  <img className='link-SVG' alt='twitter icon' src={twitter} />
-                  <img className='link-SVG' alt='tiktok icon' src={tiktok} />
-                  <img className='link-SVG' alt='youtube icon' src={youtube} />
-                  <img className='link-SVG' alt='instagram icon' src={instagram} />
-                </div>
+            <div className="conditions1">
+                <a href='https://sekoir-20.netlify.app/tos'>
+                  <div className='condition1'>أحكام الخصـوصية</div>
+                </a>
+                <a href='https://sekoir-20.netlify.app/levels'>
+                  <div className='condition1'>قواعد الإستعمال</div>
+                </a>
               </div>
+            <div className='group-22'>
+              <div className='div-copyright-social'>
+                  <div className='link-SVG-wrapper'>
+                    <a href='https://t.me/Sekoirdz'>
+                      <img className='link-SVG' alt='telegram icon' src={telegram} />
+                    </a>
+                    <img className='link-SVG' alt='discord icon' src={discord} />
+                    <img className='link-SVG' alt='twitter icon' src={twitter} />
+                    <img className='link-SVG' alt='tiktok icon' src={tiktok} />
+                    <img className='link-SVG' alt='youtube icon' src={youtube} />
+                    <img className='link-SVG' alt='instagram icon' src={instagram} />
+                  </div>
+              </div>
+              <div className="conditions">
+                <a href='https://sekoir-20.netlify.app/tos'>
+                  <div className='condition'>أحكام الخصـوصية</div>
+                </a>
+                <a href='https://sekoir-20.netlify.app/levels'>
+                  <div className='condition'>قواعد الإستعمال</div>
+                </a>
+              </div>
+  
+              <div className='text-wrapper-49'>جميع الحقوق محفوظة © 2023</div>
             </div>
           </div>
         </div>
