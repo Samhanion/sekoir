@@ -180,7 +180,7 @@ a {
 
 .home-sekoir .text-wrapper-4 {
   color: #393939;
-  font-family: 'Inter', Helvetica;
+  font-family: "Medium";
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
@@ -1119,6 +1119,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 5px;
 }
 
 .home-sekoir .text-wrapper-36 {
@@ -1188,6 +1189,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 5px;
 }
 
 .home-sekoir .vector-2 {
@@ -1211,6 +1213,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 5px;
 }
 
 .home-sekoir .overlap-9 {
@@ -1226,6 +1229,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 5px;
 }
 
 .home-sekoir .overlap-10 {
@@ -1766,9 +1770,7 @@ a {
   justify-content: space-evenly;
   margin-top: 19px;
 }
-.home-sekoir .group-22{
-  display: block;
-}
+
 .condition{
   color: #17181e;
   font-family: "Bold";
@@ -2081,6 +2083,7 @@ a {
   }
   .home-sekoir .group-22{
     margin-top: 8px;
+    display: block;
   }
   .conditions{
     display: none;
